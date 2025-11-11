@@ -26,3 +26,6 @@ Aplikasi ini mengimplementasikan fungsionalitas CRUD (Create, Read, Update, Dele
 * **Controller:** Menggunakan kelas `DataSampahController.java` untuk menangani semua logika, *event handling* (klik tombol), dan manipulasi data.
 * **Penyimpanan:** Data tidak disimpan ke database. Aplikasi ini menggunakan `ObservableList` di dalam Controller sebagai penyimpanan *in-memory* (data akan hilang saat aplikasi ditutup).
 * **Framework:** JavaFX
+
+
+![Gambar WhatsApp 2025-11-11 pukul 12 53 10_1614e3af](https://github.com/user-attachments/assets/a529920b-c7e7-4164-a5f0-306115d10608)
