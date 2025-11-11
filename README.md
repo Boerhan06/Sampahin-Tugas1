@@ -26,16 +26,3 @@ Aplikasi ini mengimplementasikan fungsionalitas CRUD (Create, Read, Update, Dele
 * **Controller:** Menggunakan kelas `DataSampahController.java` untuk menangani semua logika, *event handling* (klik tombol), dan manipulasi data.
 * **Penyimpanan:** Data tidak disimpan ke database. Aplikasi ini menggunakan `ObservableList` di dalam Controller sebagai penyimpanan *in-memory* (data akan hilang saat aplikasi ditutup).
 * **Framework:** JavaFX
-* **Build Tool:** Apache Maven
-
-## ⚙️ Cara Menjalankan
-
-Project ini dibuat menggunakan Apache Maven.
-
-1.  Clone repository ini.
-2.  Buka project di IDE Anda (seperti Apache NetBeans).
-3.  Pastikan dependensi Maven telah ter-download.
-4.  Jalankan project menggunakan perintah Maven:
-    ```bash
-    mvn clean javafx:run
-    ```
